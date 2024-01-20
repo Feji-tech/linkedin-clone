@@ -237,3 +237,23 @@ a {
     width: 60px;
     margin-right: 4px;
 }
+
+
+/*------------------------------main content------------------------*/
+
+.main-content {
+    flex-basis: 47%;
+}
+
+.horizontal-rule {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.horizontal-rule hr {
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
