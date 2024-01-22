@@ -282,8 +282,8 @@ a {
 }
 
 .following-profile-info img {
-    width: 90px;
-    border-radius: 50%;
+    width: 5rem;
+    border-radius: 5rem;
     padding: 4px;
     margin-top: -55px;
     cursor: pointer;
@@ -297,11 +297,26 @@ a {
     cursor: pointer;
 }
 
+.following-profile-info h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+}
+
 .following-profile-info h4 {
     font-size: 14px;
     font-weight: 500;
     color: #777;
     padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.following-profile-info h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    padding-bottom: 37px;
     cursor: pointer;
 }
 

@@ -1,354 +1,308 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Login Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-    <head>
-        <meta http-equiv=”content-language” content=”en-gb”/>
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta charset="UTF-8">
-        <title>LinkedIn: Log In or Sign Up</title>
-        <script src="https://kit.fontawesome.com/d79a277510.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="icon" href="https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca">
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
 
-    </head>
-
-    <body>
-                            
-        <nav class="nav-container">
-            <h2>Linkedin</h2>
-
-            <ul class="list">
-                <li class="list"><a class="nav-list" href="">Articles</a></li>
-                <li class="list"><a class="nav-list" href="">People</a></li>
-                <li class="list"><a class="nav-list" href="">Learning</a></li>
-                <li class="list"><a class="nav-list" href="">Jobs</a></li>
-                <li class="list"><a class="nav-list" href="">Get the app</a></li>
-                <li class="list"><a class="nav-list" href="">Join now</a></li>
-                <li class="list"><button class="button1" type="sign-in" formaction=""><a href="home.html">Sign in</a></button></li>
-            </ul> 
-        </nav>       
-                
-
-       <main>
-            
-        <h1 class="title">Welcome to your professional community</h1>
-        <div  class="flex-container"\>
-        <div class="form">
-        <form action="https//httpbin.org/get" method="get">
-            <label for="email">Email or phone</label>
-            <br>
-            <input class="email" type="email" name="email" id="email" required>
-            <br>                           
-
-           <p>
-            <label for="password">Password</label>
-            <br>
-            <input class="password" type="password" name="password" id="password" required>
-           </p>
-        </form>
-        
-
-        <p class="forgot-password"><a href=""><b>Forgot password?</b></a></p>
-        
-        <p><button class="button2" type="sign-in" formaction=""><a href="home.html">Sign in</a></button></p>
-        <br>
-        <p class="or"><span>or</span></p>
-        <p class="p3"><span class="p31">By clicking Continue, you agree to LinkedIn's</span> <a class="link" href="">User Agreement</a>, <a class="link" href="">Privacy Policy</a>, <span class="p31">and</span> <a class="link" href="">Cookie Policy</a>.</p>
-        <p><a id="continue" href="">Continue with Google</a></p>
-        <p><a id="join-now" href="">New to LinkedIn? Join now</a></p>
-        </div>
-        <div>
-        <figure id="image">
-            <img src="https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4" alt="welcome to your professional community">
-        </figure>
-        </div>
-        <br>
+    <div class="navbar">
+        <div class="navbar-left">
+            <h2>Linked<img src="../image/logo.png"></h2>
         </div>
 
-        <div class="flex-container1">
-        <div>   
-        <h2>Explore collaborative articles</h2>
-        <p>We're unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.</p>
-        </div> 
+        <div class="navbar-center">
+            <ul>
+                <li class="navbar-middle"><a href="" class="active-link"><img src="../image/home.png" alt="">&nbsp;Articles</a></li>
+                <li class="navbar-middle"><a href="mynetwork.html"><img src="../image/network.png" alt="">&nbsp;People</a></li>
+                <li class="navbar-middle"><a href="jobs.html"><img src="../image/jobs.png" alt="">&nbsp;Learning</a></li>
+                <li class="navbar-middle"><a href=""><img src="../image/message.png" alt="">&nbsp;Jobs</a></li>
+                <li class="navbar-middle"><a href=""><img src="../image/notifications.png" alt="">&nbsp;Get the app</a></li>
+                <li class="navbar-middle"><a href="">Join now</a></li>
+                <li class="navbar-middle"><button class="button1" type="sign-in" formaction=""><a href="home.html">Sign in</a></button></li>
 
-        <div>
-        <ul>
-            <li class="list"><a class="explore" href="">Marketing</a></li>
-            <li class="list"><a class="explore" href="">Public Administration</a></li>
-            <li class="list"><a class="explore" href="">Healthcare</a></li>
-            <li class="list"><a class="explore" href="">Engineering</a></li>
-            <li class="list"><a class="explore" href="">IT Services</a></li>
-            <li class="list"><a class="explore" href="">Sustainability</a></li>
-            <li class="list"><a class="explore" href="">Business Administration</a></li>
-            <li class="list"><a class="explore" href="">Telecommunications</a></li>
-            <li class="list"><a class="explore" href="">HR Management</a></li>
-            <li class="list"><a class="show-all" href="">Show all</a></li>
-        </ul>
+
+            </ul>
         </div>
-        </div>
+    </div>
 
-        <div class="flex-container2">
-        <div>   
-        <h2>Find the right job or internship for you</h2>
-        </div>
-        <div>
-        <h3>SUGGESTED SEARCHES</h3>
-        <ul>
-            <li class="list"><a class="suggested" href="">Engineering</a></li>
-            <li class="list"><a class="suggested" href="">Business Development</a></li>
-            <li class="list"><a class="suggested" href="">Finance</a></li>
-            <li class="list"><a class="suggested" href="">Administrative Assistant</a></li>
-            <li class="list"><a class="suggested" href="">Retail Associate</a></li>
-            <li class="list"><a class="suggested" href="">Customer Service</a></li>
-            <li class="list"><a class="suggested" href="">Operations</a></li>
-            <li class="list"><a class="suggested" href="">Information Technology</a></li>
-            <li class="list"><a class="suggested" href="">Marketing</a></li>
-            <li class="list"><a class="suggested" href="">Human Resources</a></li>
-            <li class="list"><a class="suggested" href="">Healthcare Services</a></li>
-            <li class="list"><a class="suggested" href="">Sales</a></li>
-            <li class="list"><a class="suggested" href="">Program and Project Management</a></li>
-            <li class="list"><a class="suggested" href="">Accounting</a></li>
-            <li class="list"><a class="suggested" href="">Arts and Design</a></li>
-            <li class="list"><a class="suggested" href="">Community and Social Services</a></li>
-            <li class="list"><a class="suggested" href="">Consulting</a></li>
-            <li class="list"><a class="suggested" href="">Education</a></li>
-            <li class="list"><a class="suggested" href="">Entrepreneurship</a></li>
-            <li class="list"><a class="suggested" href="">Legal</a></li>
-            <li class="list"><a class="suggested" href="">Media and Communications</a></li>
-            <li class="list"><a class="suggested" href="">Military and Protective Services</a></li>
-            <li class="list"><a class="suggested" href="">Product Management</a></li>
-            <li class="list"><a class="suggested" href="">Purchasing</a></li>
-            <li class="list"><a class="suggested" href="">Quality Assurance</a></li>
-            <li class="list"><a class="suggested" href="">Real Estate</a></li>
-            <li class="list"><a class="suggested" href="">Research</a></li>
-            <li class="list"><a class="suggested" href="">Support</a></li>
-            <li class="list"><a class="suggested" href="">Administrative</a></li>
-        </ul>
-        <br>
-       </div> 
-       </div>
+    <main class="home" id="home">
+        <div class="container">
+            <div class="items">
+                <div class="item">
+                    <div class="content">
+                        <h1>Welcome to your professional community</h1>
+                        <form action="" method="post">
+                            <div class="line">
+                                <label for="email">Email or phone</label>
+                                <div class="field">
+                                    <input class="input" type="email" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <label for="password">Password</label>
+                                <div class="field">
+                                    <input class="input" type="Password" name="Password" id="Password" required>
+                                    <span class="icon">show</span>
+                                </div>
+                            </div>
+                            <a href="#" class="forgot">
+                                Forgot password?
+                            </a>
 
-        <div class="flex-container3">
-        <div>  
-        <h2 class="heading">Post your job for millions of people to see</h2>
-        </div> 
-        <div>
-        <a id="post" href="">Post a job</a>
-        </div>
-        </div>
+                            <div class="btns">
+                                <button class="btn-login">Sign in</button>
+                            </div>
 
-        <div class="flex-container4">
-        <div>  
-        <h2>Discover the best software tools</h2>
-        <p>Connect with buyers who have first-hand experience to find the best products for you.</p>
-        </div>  
+                        </form>
 
-        <div>
-        <h3>SUGGESTED TOOLS</h3>
-        <ul>
-            <li class="list"><a class="tools" href="">E-Commerce Platforms</a></li>
-            <li class="list"><a class="tools" href="">CRM Software</a></li>
-            <li class="list"><a class="tools" href="">Human Resources Management Systems</a></li>
-            <li class="list"><a class="tools" href="">Recruiting Software</a></li>
-            <li class="list"><a class="tools" href="">Sales Intelligence Software</a></li>
-            <li class="list"><a class="tools" href="">Project Management Software</a></li>
-            <li class="list"><a class="tools" href="">Help Desk Software</a></li>
-            <li class="list"><a class="tools" href="">Social Networking Software</a></li>
-            <li class="list"><a class="tools" href="">Desktop Publishing Software</a></li>
-            <li class="list"><a class="show-all" href="">Show all</a></li>
-        </ul>
-        </div>
+                        <div class="or">
+                            <span>or</span>
+                        </div>
 
-        </div>
-            
+                        <div class="terms">
+                            <p>By clicking Continue, you agree to LinkedIn's 
+                                <a class="link" href="#">User Agreement</a>, 
+                                <a class="link" href="#">Privacy Policy</a>, and
+                                <a class="link" href="#">Cookie Policy</a>.
+                            </p>
+                        </div>
 
-        <ul>
-            <li>
-                <figure>
-                <img src="https://static.licdn.com/aero-v1/sc/h/dbvmk0tsk0o0hd59fi64z3own" alt="" width="300">
-                </figure>
-            <h2 class="heading">Let the right people know you're open to work</h2>
-            <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
-            </li>
-            <li>
-                <figure>
-                    <img src="https://static.licdn.com/aero-v1/sc/h/2r8kd5zqpi905lkzsshdlvvn5" alt="" width="300">
-                    <h2 class="heading">Conversations today could lead to opportunity tomorrow</h2>
-                    <p>Sending messages to people you know is a great way to strengthen relationships as you take the next step in your career.</p>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="https://static.licdn.com/aero-v1/sc/h/ann24vsq7r0ux3vipqa1n90gg" alt="" width="300">
-                    <h2 class="heading">Stay up to date on your industry</h2>
-                    <p>From live videos, to stories, to newsletters and more, LinkedIN is full of ways to stay up to date on the latest discussions in your industry.</p>
-                </figure>
-            </li>
-          
-        </ul>
-
-        <div class="flex-container5">
-        <div>    
-        <figure>
-            <img src="https://static.licdn.com/aero-v1/sc/h/b1fxwht7hdbeusleja7ciftsj" alt="" width="300">
-        </figure>    
-            <h2>Connect with people who can help</h2>
-            <br>
-            <a class="suggested" href="">Find people you know</a>
-        </div>    
-
-        <div>
-        <figure>
-            <img src="https://static.licdn.com/aero-v1/sc/h/dkfub4sc7jgzg3o31flfr91rv" alt="" width="300">
-        </figure>
-        <h2>Learn the skills you need to succeed</h2>
-        <br>
-        </div>
-
-       </div>
-        
-
-        <div class="flex-container6">
-        <div>    
-        <h2 class="heading">Who is LinkedIn for?</h2>
-        <h3>Anyone looking to navigate their professional life.</h3>
-        <ul>
-            <li><a href="">Find a coworker or classmate></a></li>
-            <li><a href="">Find a new job></a></li>
-            <li><a href="">Find a course or training></a></li>
-        </ul>
-        </div>
-
-        <div>
-        <figure>
-            <img src="https://static.licdn.com/aero-v1/sc/h/292yd0en6qdvkbezeuj71yu4y" alt="">
-        </figure>
-        </div>
-
-        </div>
-
-        <h2>Join your colleagues, classmates, and friends on LinkedIn.</h2>
-        <a href="">Get started</a>
-        <br>
-
-        <div class="flex-container7">
-        <div>
-        <h3>LinkedIn</h3>
-        <br>
-        </div>
-
-        <div>
-        <h3>General</h3>
-        <ul>
-            <li><a href="">Sign Up</a></li>
-            <li><a href="">Help Center</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Press</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Developers</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <h3>Browse LinkedIn</h3>
-        <ul>
-            <li><a href="">Learning</a></li>
-            <li><a href="">Jobs</a></li>
-            <li><a href="">Salary</a></li>
-            <li><a href="">Mobile</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Top Companies</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <h3>Business Solutions</h3>
-        <ul>
-            <li><a href="">Talent</a></li>
-            <li><a href="">Marketing</a></li>
-            <li><a href="">Sales</a></li>
-            <li><a href="">Learning</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <h3>Directories</h3>
-        <ul>
-            <li><a href="">Members</a></li>
-            <li><a href="">Jobs</a></li>
-            <li><a href="">Companies</a></li>
-            <li><a href="">Featured</a></li>
-            <li><a href="">Learning</a></li>
-            <li><a href="">Posts</a></li>
-            <li><a href="">Articles</a></li>
-            <li><a href="">Schools</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">News Letters</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">Advice</a></li>
-            <li><a href="">People Search</a></li>
-        </ul>
-        <br>
-        </div>
-
-        </div>
-    
-       </main>
-        <footer>
-        <ul>
-            <li class="list">LinkedIn</li>
-            <li class="list"><a href="">About</a></li>
-            <li class="list"><a href="">Accessibility</a></li>
-            <li class="list"><a href="">User Agreement</a></li>
-            <li class="list"><a href="">Privacy Policy</a></li>
-            <li class="list"><a href="">Cookie Policy</a></li>
-            <li class="list"><a href="">Copyright Policy</a></li>
-            <li class="list"><a href="">Brand Policy</a></li>
-            <li class="list"><a href="">Guest Contols</a></li>
-            <li class="list"><a href="">Community Guidelines</a></li>
-           
-            <li>
-                
-                <select name="language" id="language">
+                        <button class="btn-google">
+                            <img src="../image/google.svg" height="30">
+                            <span>Continue with Google</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4">
+                    </div>
                     
-                    <option value="arabic">Arabic</option>
-                    <option value="czech">Czech</option>
-                    <option value="danish">Danish</option>
-                    <option value="german">German</option>
-                    <option value="english">English</option>
-                    <option value="spanish">Spanish</option>
-                    <option value="french">French</option>
-                    <option value="hindi">Hindi</option>
-                    <option value="indonesian">Indonesian</option>
-                    <option value="italian">Italian</option>
-                    <option value="japanese">Japanese</option>
-                    <option value="korean">Korean</option>
-                    <option value="malay">Malay</option>
-                </select>
-            </li>
-        </ul>
-        </footer>
-
-        <div class="ivm-image-view-model    global-nav__branding-logo">
-        
-            <div class="ivm-view-attr__img-wrapper display-flex">
-                <li-icon type="app-linkedin-bug-color-icon" class=" " size="large" role="img" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-              <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
-            </svg></li-icon>
+                </div>
             </div>
-          
-                  </div>
-    </body>
 
-        
+            <div class="explore-items">
+                <div>
+                    <h2>Explore collaborative articles</h2>
+                    <p>We're unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li class="list"><a class="explore" href="">Marketing</a></li>
+                        <li class="list"><a class="explore" href="">Public Administration</a></li>
+                        <li class="list"><a class="explore" href="">Healthcare</a></li>
+                        <li class="list"><a class="explore" href="">Engineering</a></li>
+                        <li class="list"><a class="explore" href="">IT Services</a></li>
+                        <li class="list"><a class="explore" href="">Sustainability</a></li>
+                        <li class="list"><a class="explore" href="">Business Administration</a></li>
+                        <li class="list"><a class="explore" href="">Telecommunications</a></li>
+                        <li class="list"><a class="explore" href="">HR Management</a></li>
+                        <li class="list"><a class="show-all" href="">Show all</a></li>
+                    </ul>
+                </div>
 
-       
+            </div>
+
+            <div class="suggested-searches">
+                <div>
+                    <h2>Find the right job or internship for you</h2>
+                </div>
+                <div>
+                    <h3>SUGGESTED SEARCHES</h3>
+                    <ul>
+                       <li class="list"><a class="suggested" href="">Engineering</a></li>
+                       <li class="list"><a class="suggested" href="">Business Development</a></li>
+                       <li class="list"><a class="suggested" href="">Finance</a></li>
+                       <li class="list"><a class="suggested" href="">Administrative Assistant</a></li>
+                       <li class="list"><a class="suggested" href="">Retail Associate</a></li>
+                       <li class="list"><a class="suggested" href="">Customer Service</a></li>
+                       <li class="list"><a class="suggested" href="">Operations</a></li>
+                       <li class="list"><a class="suggested" href="">Information Technology</a></li>
+                       <li class="list"><a class="suggested" href="">Marketing</a></li>
+                       <li class="list"><a class="suggested" href="">Human Resources</a></li>
+                   </ul>
+                </div>
+            </div>
+
+            <div class="post-job">
+                <div>
+                    <h2 class="heading">Post your job for millions of people to see</h2>
+                </div>
+                <div>
+                    <a class="post" href="">Post a job</a>
+                </div>
+            </div>
+
+            <div class="discover">
+                <div>
+                    <h2>Discover the best software tools</h2>
+                    <p>Connect with buyers who have first-hand experience to find the best products for you.</p>
+                </div>
+                <div>
+                    <h3>SUGGESTED TOOLS</h3>
+                    <ul>
+                        <li class="list"><a class="tools" href="">E-Commerce Platforms</a></li>
+                        <li class="list"><a class="tools" href="">CRM Software</a></li>
+                        <li class="list"><a class="tools" href="">Human Resources Management Systems</a></li>
+                        <li class="list"><a class="tools" href="">Recruiting Software</a></li>
+                        <li class="list"><a class="tools" href="">Sales Intelligence Software</a></li>
+                        <li class="list"><a class="tools" href="">Project Management Software</a></li>
+                        <li class="list"><a class="tools" href="">Help Desk Software</a></li>
+                        <li class="list"><a class="tools" href="">Social Networking Software</a></li>
+                        <li class="list"><a class="tools" href="">Desktop Publishing Software</a></li>
+                        <li class="list"><a class="show-all" href="">Show all</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div>
+                   <h2 class="heading">Let the right people know you're open to work</h2>
+                   <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
+                </div>
+                <div>
+                    <img src="https://static.licdn.com/aero-v1/sc/h/dbvmk0tsk0o0hd59fi64z3own">
+                </div>
+            </div>
+
+            <div class="connect">
+                <div class="connect1">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/b1fxwht7hdbeusleja7ciftsj" width="300">
+                    <h2>Connect with people who can help</h2>
+                </div>
+                <div class="connect2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/dkfub4sc7jgzg3o31flfr91rv" width="300">
+                    <h2>Learn the skills you need to succeed</h2>
+                </div>
+            </div>
+
+            <div class="navigate">
+                <div class="navigate1">
+                    <div>
+                        <h2 class="heading">Who is LinkedIn for?</h2>
+                        <h3>Anyone looking to navigate their professional life.</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="">Find a coworker or classmate></a></li>
+                            <li><a href="">Find a new job></a></li>
+                            <li><a href="">Find a course or training></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigate2">
+                    <img src="https://static.licdn.com/aero-v1/sc/h/292yd0en6qdvkbezeuj71yu4y">
+                </div>
+            </div>
+
+            <div class="join">
+                <h2>Join your colleagues, classmates, and friends on LinkedIn.</h2>
+                <div>
+                    <a href="">Get started</a>
+                </div>
+            </div>
+
+            <div class="general">
+                <div>
+                    <h2>Linked<img src="../image/logo.png"></h2>
+                </div>
+                <div>
+                    <h3>General</h3>
+                    <ul>
+                        <li><a href="">Sign Up</a></li>
+                        <li><a href="">Help Center</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Developers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Browse LinkedIn</h3>
+                    <ul>
+                        <li><a href="">Learning</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Salary</a></li>
+                        <li><a href="">Mobile</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Top Companies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Business Solutions</h3>
+                    <ul>
+                        <li><a href="">Talent</a></li>
+                        <li><a href="">Marketing</a></li>
+                        <li><a href="">Sales</a></li>
+                        <li><a href="">Learning</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Directories</h3>
+                    <ul>
+                        <li><a href="">Members</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Companies</a></li>
+                        <li><a href="">Featured</a></li>
+                        <li><a href="">Learning</a></li>
+                        <li><a href="">Posts</a></li>
+                        <li><a href="">Articles</a></li>
+                        <li><a href="">Schools</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">News Letters</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Advice</a></li>
+                        <li><a href="">People Search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <ul>
+                <li class="list">LinkedIn &#169; 2024</li>
+                <li class="list"><a href="">About</a></li>
+                <li class="list"><a href="">Accessibility</a></li>
+                <li class="list"><a href="">User Agreement</a></li>
+                <li class="list"><a href="">Privacy Policy</a></li>
+                <li class="list"><a href="">Cookie Policy</a></li>
+                <li class="list"><a href="">Copyright Policy</a></li>
+                <li class="list"><a href="">Brand Policy</a></li>
+                <li class="list"><a href="">Guest Contols</a></li>
+                <li class="list"><a href="">Community Guidelines</a></li>
+               
+                <li>
+                    
+                    <select name="language" id="language">
+                        
+                        <option value="language">Language</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="czech">Czech</option>
+                        <option value="danish">Danish</option>
+                        <option value="german">German</option>
+                        <option value="english">English</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                        <option value="hindi">Hindi</option>
+                        <option value="indonesian">Indonesian</option>
+                        <option value="italian">Italian</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="korean">Korean</option>
+                        <option value="malay">Malay</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </footer>
     
-    
-
+</body>
 </html>
